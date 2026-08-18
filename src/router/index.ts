@@ -1,6 +1,7 @@
 import { createRouter, createWebHistory } from 'vue-router'
 
 import ChaptersView from '@/views/ChaptersView.vue'
+import ArchiveView from '@/views/ArchiveView.vue'
 import HomeView from '@/views/HomeView.vue'
 import NovelView from '@/views/NovelView.vue'
 import ReaderView from '@/views/ReaderView.vue'
@@ -11,6 +12,7 @@ const router = createRouter({
     { path: '/', name: 'home', component: HomeView },
     { path: '/novel', name: 'novel', component: NovelView },
     { path: '/chapters', name: 'chapters', component: ChaptersView },
+    { path: '/archive', name: 'archive', component: ArchiveView },
     { path: '/read/:slug', name: 'reader', component: ReaderView },
   ],
   scrollBehavior(to, _from, savedPosition) {
@@ -21,4 +23,3 @@ const router = createRouter({
 })
 
 export default router
-

@@ -1,5 +1,5 @@
 <script setup lang="ts">
-import { BookOpenText, List, Moon, ScrollText, Sun } from '@lucide/vue'
+import { GalleryHorizontal, List, Moon, ScrollText, Sun } from '@lucide/vue'
 import { onMounted, ref } from 'vue'
 import { RouterLink } from 'vue-router'
 
@@ -42,9 +42,9 @@ onMounted(() => {
         <List :size="17" aria-hidden="true" />
         <span>章節</span>
       </RouterLink>
-      <RouterLink v-if="$route.name !== 'reader'" :to="{ name: 'reader', params: { slug: 'moonlit-reading-room' } }">
-        <BookOpenText :size="17" aria-hidden="true" />
-        <span>閱讀</span>
+      <RouterLink to="/archive">
+        <GalleryHorizontal :size="17" aria-hidden="true" />
+        <span>萬象集</span>
       </RouterLink>
     </nav>
 
