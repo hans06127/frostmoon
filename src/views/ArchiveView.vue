@@ -45,7 +45,7 @@ const categories: CategoryOption<ArchiveFilter>[] = [
 const characterCategories: CategoryOption<CharacterFilter>[] = [
   { id: 'all', label: '全部' },
   { id: 'main', label: '主要角色' },
-  { id: 'frostmoon-manor', label: '霜月莊園' },
+  { id: 'frostmoon-manor', label: '雙月苑' },
   { id: 'klein', label: '克萊因' },
   { id: 'staff', label: '工作人員' },
 ]
@@ -196,7 +196,7 @@ onMounted(async () => {
   <section class="page-intro page-width page-intro--compact archive-intro">
     <p class="eyebrow">ARCHIVE</p>
     <h1>萬象集</h1>
-    <p class="page-intro__lead">霜月世界的面孔、場所與遺留物。</p>
+    <p class="page-intro__lead">雙月苑與克萊因世界的面孔、場所與遺留物。</p>
   </section>
 
   <section class="archive page-width section-space">

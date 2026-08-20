@@ -56,7 +56,7 @@ const heroImage = `${import.meta.env.BASE_URL}images/chapters/demo/moonlit-libra
       <article>
         <Layers3 :size="22" aria-hidden="true" />
         <span>Arc 01</span>
-        <h3>霜月莊園</h3>
+        <h3>雙月苑</h3>
         <p>{{ arcOneChapterCount }} 篇章節已公開。</p>
       </article>
       <article>

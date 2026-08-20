@@ -10,7 +10,7 @@ id: "arc01-ch001"
 slug: "arc01-chapter-001"
 title: "第一章標題"
 season: 1
-arc: "霜月莊園"
+arc: "雙月苑"
 arcOrder: 1
 chapter: 1
 chapterLabel: "第一章"

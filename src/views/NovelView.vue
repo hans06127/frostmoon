@@ -36,7 +36,7 @@ import { BookMarked, MoonStar } from '@lucide/vue'
       <BookMarked :size="24" aria-hidden="true" />
     </div>
     <ol class="arc-list">
-      <li><span>01</span><strong>霜月莊園</strong></li>
+      <li><span>01</span><strong>雙月苑</strong></li>
       <li><span>02</span><strong>克萊因學院</strong></li>
       <li><span>03</span><strong>未定</strong></li>
     </ol>
